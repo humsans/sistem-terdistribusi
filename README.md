@@ -1,10 +1,29 @@
-Tugas Praktikum Mata Kuliah Sistem Terdistribusi
+# Sistem Terdistribusi
 
-Oleh
-Muhammad Aslim Salman
-231524014
-Kelas 3A - D4 Teknik Informatika
+## Tugas Praktikum
 
-Jurusan Teknik Komputer dan Informatika
-Politeknik Negeri Bandung
+### Oleh
+**Muhammad Aslim Salman**
+
+**231524014**
+
+**3A - D4 Teknik Informatika**
+
+## List Tugas
+ * W12
+ * W13
+
+
+
+
+
+
+
+
+
+
+_Jurusan Teknik Komputer dan Informatika_
+
+_Politeknik Negeri Bandung_
+
 2026
