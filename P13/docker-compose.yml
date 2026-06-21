@@ -1,0 +1,96 @@
+version: '3.8'
+
+services:
+  master:
+    build: .
+    container_name: mpi_master
+    volumes:
+      - .:/app
+    hostname: master
+    networks:
+      - mpi_net
+
+  worker1:
+    build: .
+    container_name: mpi_worker1
+    volumes:
+      - .:/app
+    hostname: worker1
+    networks:
+      - mpi_net
+
+  worker2:
+    build: .
+    container_name: mpi_worker2
+    volumes:
+      - .:/app
+    hostname: worker2
+    networks:
+      - mpi_net
+
+  worker3:
+    build: .
+    container_name: mpi_worker3
+    volumes:
+      - .:/app
+    hostname: worker3
+    networks:
+      - mpi_net
+
+  worker4:
+    build: .
+    container_name: mpi_worker4
+    volumes:
+      - .:/app
+    hostname: worker4
+    networks:
+      - mpi_net
+  
+  worker5:
+    build: .
+    container_name: mpi_worker5
+    volumes:
+      - .:/app
+    hostname: worker5
+    networks:
+      - mpi_net
+
+  worker6:
+    build: .
+    container_name: mpi_worker6
+    volumes:
+      - .:/app
+    hostname: worker6
+    networks:
+      - mpi_net
+
+  worker7:
+    build: .
+    container_name: mpi_worker7
+    volumes:
+      - .:/app
+    hostname: worker7
+    networks:
+      - mpi_net
+
+  worker8:
+    build: .
+    container_name: mpi_worker8
+    volumes:
+      - .:/app
+    hostname: worker8
+    networks:
+      - mpi_net
+
+  worker9:
+    build: .
+    container_name: mpi_worker9
+    volumes:
+      - .:/app
+    hostname: worker9
+    networks:
+      - mpi_net
+
+networks:
+  mpi_net:
+    driver: bridge
